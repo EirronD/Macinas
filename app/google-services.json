@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "541743447726",
+    "project_id": "bahi-acb06",
+    "storage_bucket": "lbtmo-f849a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541743447726:android:e22264ad58bd8973cdb73f",
+        "android_client_info": {
+          "package_name": "com.example.bahi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541743447726-hg4ptioqg9telmce3e15j9972pgoor70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bahi",
+            "certificate_hash": "06bb7cb5a7e1d1dc950f2e22f6a065f21c05aaff"
+          }
+        },
+        {
+          "client_id": "541743447726-186lt0678hon9iqiv5o140llrguitt3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiH7chHaGZmm_0kkIe2gKLAj1vDZ8p2CA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541743447726-186lt0678hon9iqiv5o140llrguitt3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

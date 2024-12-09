@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home_landlord"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24" />
+
+    <item
+        android:id="@+id/bottom_listing_landlord"
+        android:title="Listing"
+        android:icon="@drawable/baseline_window_24"/>
+
+    <item
+        android:id="@+id/bottom_profile_landlord"
+        android:title="Profile"
+        android:icon="@drawable/baseline_person_24"/>
+
+    <item
+        android:id="@+id/bottom_menu_landlord"
+        android:title="Menu"
+        android:icon="@drawable/baseline_menu_24"/>
+
+</menu>
