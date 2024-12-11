@@ -50,7 +50,8 @@ public class House extends AppCompatActivity {
                         for (QueryDocumentSnapshot document : querySnapshot) {
                             String id = document.getId();
                             String description = document.getString("description");
-                            String price = document.getString("price");
+                            Object priceObject = document.get("price");
+                            String price = priceObject != null ? String.valueOf(priceObject) : "N/A";
                             String contactNumber = document.getString("contactNumber");
                             String location = document.getString("location");
                             String imageUrl = document.getString("imageUrl");

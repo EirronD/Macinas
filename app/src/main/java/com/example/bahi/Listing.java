@@ -61,7 +61,7 @@ public class Listing extends Fragment {
         buttonCapturePicture = view.findViewById(R.id.buttonCapturePicture);
         imageViewPicture = view.findViewById(R.id.imageViewPicture);
 
-        String[] unitTypes = {"Condo", "House", "Listings", "Bedspace"};
+        String[] unitTypes = {"Condo", "House", "Apartment", "Bedspace"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_item, unitTypes);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerUnitType.setAdapter(adapter);
